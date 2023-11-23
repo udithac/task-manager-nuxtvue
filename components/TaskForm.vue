@@ -24,13 +24,9 @@ export default {
     };
   },
   methods: {
-    submitForm() {
-      // Check if the input is not empty
-      if (this.newTask.name && this.newTask.dueDate) {
-        // Emit an event to the parent component with the new task data
-        this.$emit('submit', this.newTask);
-
-        // Clear the form after submitting
+    submitForm() {      
+      if (this.newTask.name && this.newTask.dueDate) {        
+        this.$emit('submit', this.newTask)
         this.newTask = { name: '', dueDate: '' };
       }
     }
@@ -39,5 +35,5 @@ export default {
 </script>
 
 <style >
-/* Add your component-specific styles here */
+/* my css styles come here .... */ */
 </style>

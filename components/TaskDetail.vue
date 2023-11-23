@@ -5,7 +5,6 @@
       <p><strong>Name:</strong> {{ task.name }}</p>
       <p><strong>Due Date:</strong> {{ task.dueDate }}</p>
       <p><strong>Status:</strong> {{ task.completed ? 'Completed' : 'Incomplete' }}</p>
-      <!-- Add other task details as needed -->
     </div>
     <div v-else>
       <p>No task selected</p>
@@ -28,5 +27,5 @@ export default {
 </script>
 
 <style>
-/* Add your component-specific styles here */
+/* my css styles come here .... */
 </style>

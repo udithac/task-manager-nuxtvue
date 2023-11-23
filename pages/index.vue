@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Task Manager Overview</h1>
+    <h1>:: Task Manager Application ::</h1>
     <TaskList :tasks="tasks" @delete-task="handleDeleteTask" />
     <TaskForm @submit="createTask" />
     <h4><hr>Note: There is no Database linked!, The Page Refresh will clear the Form!!!</h4>
@@ -48,5 +48,5 @@ export default {
 </script>
 
 <style>
-  
+  /* my css styles come here .... */
 </style>
