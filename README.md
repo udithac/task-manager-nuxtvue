@@ -1,45 +1,47 @@
-# 🪄 Nuxt Starter Templates
+# Task Manager Application (Frontend)
 
-Quickly get started with a minimal Nuxt starter template!
+## Overview
 
-## Quick start
+This is the frontend for the Task Manager web application, built using NuxtJS (Version 2).
+The Task Manager web application is a simple yet powerful tool designed to help you manage your tasks efficiently. Built with modern web technologies, the application provides a seamless user experience with its intuitive interface.
 
-Head over to [nuxt.new](https://nuxt.new) to get started quickly.
+## Application Features in breif:
+- **Task List Overview:** View a comprehensive list of your current tasks at a glance.
 
-## Usage
+- **Create New Task:** Easily create a new task with a specified name, due date, and completion status.
 
-You can use `nuxi` CLI to clone latest template to an empty directory:
+- **Mark Task as Done/Completed:** Keep track of your progress by marking tasks as done when completed.
 
-```sh-session
-$ npx nuxi init [-t,--template=<template>] [<dir>]
-```
+## How to Run the Application
 
-**Example:** Clone `v3` to `my-app` directory:
+1. **Clone the Repository:**
 
-```sh-session
-$ npx nuxi init -t v3 nuxt-app
-```
+   code:
+   git clone https://github.com/udithac/nuxtjs-tm-frontend.git
 
-## Templates
+   cd nuxtjs-tm-frontend
 
-Name | Description | Local     | Online |
------|-------------|-----------|--------|
-[v3](https://github.com/nuxt/starter/tree/v3) | [Nuxt 3](https://github.com/nuxt/nuxt) | `npx nuxi init nuxt-app` | [Stackblitz](https://stackblitz.com/github/nuxt/starter/tree/v3-stackblitz) / [CodeSandbox](https://codesandbox.io/p/github/nuxt/starter/v3-codesandbox) |
-[module](https://github.com/nuxt/starter/tree/module) | Nuxt Module with [Module Builder](https://github.com/nuxt/module-builder) | `npx nuxi init my-module -t module` | - |
-[module-devtools](https://github.com/nuxt/starter/tree/module-devtools) | Nuxt Module with [Nuxt DevTools](https://github.com/nuxt/devtools) integration | `npx nuxi init my-module -t module-devtools` | - |
-[layer](https://github.com/nuxt/starter/tree/layer) | [Nuxt Layer](https://nuxt.com/docs/guide/going-further/layers) Starter with Extends (experimental) | `npx nuxi init  -t layer` | - |
-[content](https://github.com/nuxt/starter/tree/content) | [Nuxt Content](https://content.nuxt.com) | `npx nuxi init content-app -t content` | [Stackblitz](https://stackblitz.com/github/nuxt/starter/tree/content) / [CodeSandbox](https://codesandbox.io/p/github/nuxt/starter/content) |
-[ui](https://github.com/nuxt/starter/tree/ui) | [Nuxt UI](https://ui.nuxt.com) | `npx nuxi init nuxt-ui-app -t ui` | [Stackblitz](https://stackblitz.com/github/nuxt/starter/tree/ui) / [CodeSandbox](https://codesandbox.io/p/github/nuxt/starter/ui) |
-[v2-bridge](https://github.com/nuxt/starter/tree/v2-bridge) | [Nuxt 2](https://github.com/nuxt/nuxt/tree/2.x-dev) + [Bridge](https://github.com/nuxt/bridge) | `npx nuxi init nuxt-bridge-app -t v2-bridge` | [Stackblitz](https://stackblitz.com/github/nuxt/starter/tree/v2-bridge) / [CodeSandbox](https://codesandbox.io/p/github/nuxt/starter/v2-bridge-codesandbox) |
-[v2](https://github.com/nuxt/starter/tree/v2) | [Nuxt 2](https://github.com/nuxt/nuxt/tree/2.x-dev) | `npx nuxi init nuxt2-app -t v2` | [Stackblitz](https://stackblitz.com/github/nuxt/starter/tree/v2-stackblitz) / [CodeSandbox](https://codesandbox.io/p/github/nuxt/starter/v2-codesandbox) |
+ 3. **Install Dependencies:**
+    code:
+   npm install
 
-## Contribution
+ 4. **Run the Application:**
+    code:
+    npm run dev
 
-Each template is maintained in a branch (see [all branches](https://github.com/nuxt/starter/branches)).
-For improvements, please open a Pull Request to each individual branch.
+    - The application will run at  http://localhost:3000
+      
+## Technologies Used
+- **Frontend:** NuxtJS (Version 2) and Vue.js for a dynamic and responsive user interface.
+- **Backend:** Spring Boot Webflux, ensuring a robust and reactive backend for efficient data handling.
 
-**Note:** Please avoid commiting lock-files such as `yarn.lock` and `package-lock.json` to template branches!
+## Contributions
+
+We welcome contributions, feedback, and bug reports. Feel free to share your thoughts and help us improve the Task Manager.
 
 ## License
 
-[MIT](./LICENSE) - Made with 💚
+The Task Manager project is licensed under the MIT License.
+
+Thanks for using Task Manager! 🚀
+Udithac, 23/11/2023, Berlin, GE.

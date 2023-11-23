@@ -35,5 +35,5 @@ export default {
 </script>
 
 <style >
-/* my css styles come here .... */ */
+/* my css styles come here .... */
 </style>
