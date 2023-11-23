@@ -1,4 +1,4 @@
-# Task Manager Frontend
+# Task Manager Application (Frontend)
 
 ## Overview
 
@@ -20,7 +20,7 @@ The Task Manager web application is a simple yet powerful tool designed to help 
    git clone https://github.com/udithac/nuxtjs-tm-frontend.git
    cd nuxtjs-tm-frontend
 
- 2. **Install Dependencies:
+ 2. **Install Dependencies:**
     code:
    npm install
 
@@ -43,3 +43,4 @@ We welcome contributions, feedback, and bug reports. Feel free to share your tho
 The Task Manager project is licensed under the MIT License.
 
 Thanks for using Task Manager! 🚀
+Udithac, 23/11/2023, Berlin, GE.
