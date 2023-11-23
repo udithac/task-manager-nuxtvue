@@ -18,6 +18,7 @@ The Task Manager web application is a simple yet powerful tool designed to help 
 
    code:
    git clone https://github.com/udithac/nuxtjs-tm-frontend.git
+
    cd nuxtjs-tm-frontend
 
  3. **Install Dependencies:**
