@@ -1,0 +1,13 @@
+{
+  "name": "my-task-manager",
+  "version": "1.0.0",
+  "description": "A simple Task Manager web application",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "dependencies": {
+    "nuxt": "^2.15.7"
+   
+  },
+  "devDependencies": {}
+}
