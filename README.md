@@ -20,3 +20,8 @@ This repository contains the frontend for the Task Manager web application, buil
    git clone https://github.com/udithac/nuxtjs-tm-frontend.git
 
    cd nuxtjs-tm-frontend
+
+   
+2. **Install Dependencies:**
+ ```bash
+   npm install
