@@ -17,11 +17,11 @@ This repository contains the frontend for the Task Manager web application, buil
 1. **Clone the Repository:**
 
 2. **Install Dependencies:**
-   ```bash
-   npm install
+      ```bash
+      npm install
    
 3. **Run the Application:**
-       ```bash
+      ```bash
       npm run dev
    
 4. **Build and Deployment Instructions (more):**
@@ -81,7 +81,7 @@ The application includes unit tests for critical components. Run tests using the
 13. **Contributions:**
     We welcome contributions, feedback, and bug reports. Please follow the guidelines in CONTRIBUTING.md when contributing to this project.
     
-14.IV.  **Acknowledgments:**
+14. **Acknowledgments:**
     We would like to thank the following projects and libraries for their contributions to this application:
 
       - Vue.js
