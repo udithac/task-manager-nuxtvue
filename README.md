@@ -21,22 +21,82 @@ This repository contains the frontend for the Task Manager web application, buil
 
    cd nuxtjs-tm-frontend
 
-2. *Install Dependencies: **
+2. **Install Dependencies: **
    ```bash
    npm install
+   
+3. **Run the Application: **
+       ```bash
+      npm run dev
+4. **Build and Deployment Instructions (more): **
+   To build and deploy the application, follow these steps:
+   I. Run npm install to install dependencies.
+   II. Configure the necessary environment variables.
+   III. Run npm run dev for local development.
+   Deploy the application as per your hosting environment requirements.
 
-
-4. **Run the Application: **
 5. **Application Features: **
+    - The application will run at http://localhost:3000.
+    - Note: There is no Database linked! The page refresh will clear the form.
+    - New tasks can be registered under "Task Registration" by entering the task name and the due date (both fields are mandatory).
+    - Once data is entered, sorting (by due date or task name) and filtering (incomplete, completed, all) can be tested.
+    - The application is for demonstration purposes only, and no additional services are implemented.
+
 6. **Future Plans: **
+    - User authentication using the Auth0 protocol.
+    - Display tasks based on user rights/department.
+    - Record user details (UserID, registered Date & Time) once a task is registered.
+    - Update task details by clicking on the task (e.g., status update) and maintain the update history log with user details.
+    - Modify any tasks depends on the permission assigned.
+    - Reporting.
+      
 7. **Project Structure: **
+   The project follows the standard structure expected in NuxtJS projects. Key directories include:
+    -  components: Vue components used in the project.
+    -  layouts: NuxtJS layouts defining the structure of the pages.
+    -  pages: Vue pages representing the different views of the application.
+    -  static: Static assets like images, fonts, etc.
+    -  store: Vuex store modules for managing the application state.
+   
 8. **Dependencies: **
+    - NuxtJS (Version 2): Frontend framework for building Vue.js applications.
+    - Vue.js: JavaScript framework for building user interfaces.
+    - Auth0: Authentication and authorization platform for securing the application. (not yet applied)
+
 9. **Environment Variables: **
-10. **Build and Deployment Instructions: **
-11. **Testing: **
-12. **Code Style and Linting: **
-13. **Troubleshooting: **
-14. **Contributions: **
-15. **Acknowledgments: **
-16. **Reports **
-17. **License **
+    The application relies on the following environment variables:
+
+   - AUTH0_DOMAIN: The domain provided by Auth0 for authentication.
+   - AUTH0_CLIENT_ID: The client ID provided by Auth0 for authentication.
+   
+   Ensure these variables are set in your environment for proper application functionality.
+
+10. **Testing: **
+The application includes unit tests for critical components. Run tests using the command:
+    ```bash
+    npm run test
+
+11. **Code Style and Linting: **
+   The project follows the standard Vue.js and NuxtJS code style guidelines. Linting is enforced using ESLint.
+
+12. **Troubleshooting: **
+    If you encounter issues or error messages, refer to the Troubleshooting Guide for common solutions.
+    
+13. **Contributions: **
+    We welcome contributions, feedback, and bug reports. Please follow the guidelines in CONTRIBUTING.md when contributing to this project.
+    
+14.IV.  **Acknowledgments: **
+    We would like to thank the following projects and libraries for their contributions to this application:
+
+   - Vue.js
+   - NuxtJS
+   - Auth0
+
+15. **Reports **
+    If you have any suggestions or issues related to reports, please provide feedback or report them to help us enhance the reporting functionality.
+    Feel free to adjust any details according to the specific structure and needs of your project.
+    
+16. **License **
+
+The Task Manager project is licensed under the MIT License.
+Thanks for using Task Manager! 🚀 Udithac, 23/11/2023, Berlin, GE.
