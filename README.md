@@ -19,10 +19,13 @@ This repository contains the frontend for the Task Manager web application, buil
 2. **Install Dependencies:**
       ```bash
       npm install
+
+      
    
 3. **Run the Application:**
-      ```bash
-      npm install
+       ```bash
+         npm install
+
    
    
 5. **Build and Deployment Instructions (more):**
