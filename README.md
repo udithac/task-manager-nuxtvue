@@ -2,10 +2,10 @@
 
 ## Overview
 
-This is the frontend for the Task Manager web application, built using NuxtJS (Version 2).
-The Task Manager web application is a simple yet powerful tool designed to help you manage your tasks efficiently. Built with modern web technologies, the application provides a seamless user experience with its intuitive interface.
+This repository contains the frontend for the Task Manager web application, built using NuxtJS (Version 2). The Task Manager web application is a straightforward yet powerful tool designed to help you manage your tasks efficiently. Built with modern web technologies, the application provides a seamless user experience with its intuitive interface.
 
-## Application Features in breif:
+## Application Features
+
 - **Task List Overview:** View a comprehensive list of your current tasks at a glance.
 
 - **Create New Task:** Easily create a new task with a specified name, due date, and completion status.
@@ -16,32 +16,7 @@ The Task Manager web application is a simple yet powerful tool designed to help 
 
 1. **Clone the Repository:**
 
-   code:
+   ```bash
    git clone https://github.com/udithac/nuxtjs-tm-frontend.git
 
    cd nuxtjs-tm-frontend
-
- 3. **Install Dependencies:**
-    code:
-   npm install
-
- 4. **Run the Application:**
-    code:
-    npm run dev
-
-    - The application will run at  http://localhost:3000
-      
-## Technologies Used
-- **Frontend:** NuxtJS (Version 2) and Vue.js for a dynamic and responsive user interface.
-- **Backend:** Spring Boot Webflux, ensuring a robust and reactive backend for efficient data handling.
-
-## Contributions
-
-We welcome contributions, feedback, and bug reports. Feel free to share your thoughts and help us improve the Task Manager.
-
-## License
-
-The Task Manager project is licensed under the MIT License.
-
-Thanks for using Task Manager! 🚀
-Udithac, 23/11/2023, Berlin, GE.
