@@ -84,9 +84,9 @@ The application includes unit tests for critical components. Run tests using the
 14.IV.  **Acknowledgments:**
     We would like to thank the following projects and libraries for their contributions to this application:
 
-   - Vue.js
-   - NuxtJS
-   - Auth0
+      - Vue.js
+      - NuxtJS
+      - Auth0
 
 15. **Reports**
     If you have any suggestions or issues related to reports, please provide feedback or report them to help us enhance the reporting functionality.
@@ -95,4 +95,5 @@ The application includes unit tests for critical components. Run tests using the
 16. **License**
 
 The Task Manager project is licensed under the MIT License.
+
 Thanks for using Task Manager! 🚀 Udithac, 23/11/2023, Berlin, GE.
