@@ -22,5 +22,5 @@ This repository contains the frontend for the Task Manager web application, buil
    cd nuxtjs-tm-frontend
 
 2. **Install Dependencies:**
-
+```bash
    npm install
